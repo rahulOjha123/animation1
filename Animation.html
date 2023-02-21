@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+   .content{
+    width: 30%;
+    height: 100px;
+    background-color: rgb(28, 28, 20);
+    border-radius: 2px sloid white;
+    animation-name: sample;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+    
+   }
+   /* @keyframes sample {
+
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+
+    
+   } */
+   @keyframes sample {
+      0%{
+         border-radius: 10px;
+         background-color: gray;
+      }
+      25%{
+         border-radius: 20px;
+         background-color: yellowgreen;
+      }
+      50%{
+         border-radius: 50%;
+         background-color: darkorchid;
+      }
+   }
+    
+</style>
+</head>
+
+<body>
+   <div class="content">
+
+   </div>
+</body>
+</html>
